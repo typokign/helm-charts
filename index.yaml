@@ -3,7 +3,22 @@ entries:
   matrix:
   - apiVersion: v2
     appVersion: 1.12.0
-    created: "2020-03-30T23:02:50.116480369-07:00"
+    created: "2020-03-30T23:34:24.2494132-07:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com
+      version: 8.0.0
+    description: A Helm chart to deploy a Matrix homeserver stack into Kubernetes
+    digest: 75378f2c1134b00bf411c29376287f754928ffd0f01034aabddbbc7943b37995
+    name: matrix
+    type: application
+    urls:
+    - matrix-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2020-03-30T23:34:24.241683955-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -18,7 +33,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.12.0
-    created: "2020-03-30T23:02:50.112095132-07:00"
+    created: "2020-03-30T23:34:24.2333447-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -31,4 +46,4 @@ entries:
     urls:
     - matrix-1.0.0.tgz
     version: 1.0.0
-generated: "2020-03-30T23:02:50.106726871-07:00"
+generated: "2020-03-30T23:34:24.195722692-07:00"
